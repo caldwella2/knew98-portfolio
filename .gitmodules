@@ -1,0 +1,6 @@
+[submodule "port-hugo"]
+	path = port-hugo
+	url = https://github.com/tylerjlawson/port-hugo.git
+[submodule "portfolio/themes/port-hugo"]
+	path = portfolio/themes/port-hugo
+	url = https://github.com/tylerjlawson/port-hugo.git
