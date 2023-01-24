@@ -4,3 +4,9 @@
 [submodule "portfolio/themes/port-hugo"]
 	path = portfolio/themes/port-hugo
 	url = https://github.com/tylerjlawson/port-hugo.git
+[submodule "portfolio/themes/toha"]
+	path = portfolio/themes/toha
+	url = https://github.com/hugo-toha/toha.git
+[submodule "portfolio/themes/spectral"]
+	path = portfolio/themes/spectral
+	url = git@github.com:sbruder/spectral.git

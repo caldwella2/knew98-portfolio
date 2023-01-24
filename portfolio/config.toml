@@ -1,89 +1,146 @@
-######################## default configuration ####################
-baseURL = "https://example.com"
-title = "Knew 98"
-theme = "port-hugo"
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Knew-98 Portfolio'
+theme = "spectral"
 
-############################# Plugins ##############################
-
-# CSS Plugins
-[[params.plugins.css]]
-link = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-[[params.plugins.css]]
-link = "https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-[[params.plugins.css]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
-[[params.plugins.css]]
-link = "plugins/text-animation/text-animation.css"
-[[params.plugins.css]]
-link = "plugins/hugrid/hugrid.css"
-
-# JS Plugins
-[[params.plugins.js]]
-link = "https://code.jquery.com/jquery-3.5.1.min.js"
-[[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
-[[params.plugins.js]]
-link = "plugins/text-animation/text-animation.js"
-[[params.plugins.js]]
-link = "plugins/hugrid/hugrid.min.js"
-
-
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "Home"
-URL = "#home"
-weight = 1
-
-[[menu.main]]
-name = "About me"
-URL = "#about"
-weight = 2
-
-[[menu.main]]
-name = "Portfolio"
-URL = "#portfolio"
-weight = 3
-
-
-#################### default parameters ################################
 [params]
-logo_light = "images/logo.svg"
-logo_dark = "images/logo-dark.svg"
-copyright = "Copyright Burton Guster &copy;"
-# Meta data
-description = "Personal Portfolio"
-author = "Burton Guster"
-favicon = "images/favicon.png"
-google_analytics = "G-ABCDEFG123"
+fancyTitle = "Knew-98 Portfolio" # title for frontpage, may include image
+copyright = "Lex Caldwell"
+description = 'Faith .'
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
 
+[[params.menu.main]]
+url = '/'
+title = "Home"
 
-# Preloader
-[params.preloader]
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+title = 'Artist . Producer . Engineer'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
 
-############################# social site ########################
+[[params.one.icon]]
+icon = "fa-diamond"
+style = "1"
+label = "Lorem"
 
-[[params.social]]
-icon = "fab fa-github"
-link = "https://github.com/tylerjlawson"
+[[params.one.icon]]
+icon = "fa-heart-o"
+style = "2"
+label = "Ipsum"
 
-[[params.social]]
-icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/"
+[[params.one.icon]]
+icon = "fa-code"
+style = "3"
+label = "Dolor"
 
-[[params.social]]
-icon = "fas fa-envelope"
-link = "mailto:guster@burton.com"
+[params.two]
+enable = true
 
-[[params.social]]
-icon = "fab fa-medium"
-link = "https://medium.com/@gusburton"
+[[params.two.section]]
+img = "img/pic01.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
 
-contentDir = "content/english"
-weight = 1
-home = "Home"
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[params.three]
+enable = true
+title = 'Accumsan mus tortor nunc aliquet'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane-o"
+title = "Arcu accumsan"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-laptop"
+title = "Ac Augue Eget"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-code"
+title = "Foo bar"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-headphones"
+title = "Baz kram"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-heart-o"
+title = "Some latin text"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-flag-o"
+title = "Nothing important"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = true
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+facebook = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
