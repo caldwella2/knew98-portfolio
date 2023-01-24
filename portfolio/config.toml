@@ -65,6 +65,11 @@ img = "img/scan0073.jpg"
 title = 'Reason Why .'
 body = ''
 
+[[params.two.section]]
+img = "img/scan0007.jpg"
+title = 'Released Music .'
+body = ''
+
 [params.three]
 enable = true
 title = 'Social Media'
