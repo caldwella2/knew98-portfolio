@@ -1,10 +1,10 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = 'Knew-98 Portfolio'
+title = "Knew '98 Portfolio"
 theme = "spectral"
 
 [params]
-fancyTitle = "Knew-98 Portfolio" # title for frontpage, may include image
+fancyTitle = "Knew '98 Portfolio" # title for frontpage, may include image
 copyright = "Lex Caldwell"
 description = 'Faith .'
 startbuttonLink = "#"
@@ -27,14 +27,13 @@ title = "Posts"
 
 [params.one]
 enable = true
-title = 'Artist . Producer . Engineer'
+title = 'Artist . Producer . Engineer .'
 body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+Music To Live To . Faith .
 '''
 
 [[params.one.icon]]
-icon = "fa-diamond"
+icon = "fa-headphones"
 style = "1"
 label = "Lorem"
 
@@ -52,56 +51,51 @@ label = "Dolor"
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "img/IMG_7242.jpg"
+title = 'About Me .'
+body = ''
 
 [[params.two.section]]
-img = "img/pic02.jpg"
-title = 'Tortor dolore feugiat<br />elementum magna'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "img/IMG_7243.jpg"
+title = 'My Music .'
+body = ''
 
 [[params.two.section]]
-img = "img/pic03.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "img/scan0073.jpg"
+title = 'Reason Why .'
+body = ''
 
 [params.three]
 enable = true
-title = 'Accumsan mus tortor nunc aliquet'
+title = 'Social Media'
 body = '''
 Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
 fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
 '''
 
 [[params.three.feature]]
-icon = "fa-paper-plane-o"
-title = "Arcu accumsan"
+icon = "fa-soundcloud"
+title = "SoundCloud"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 [[params.three.feature]]
-icon = "fa-laptop"
-title = "Ac Augue Eget"
+icon = "fa-instagram"
+title = "Instagram"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 [[params.three.feature]]
-icon = "fa-code"
-title = "Foo bar"
+icon = "fa-youtube"
+title = "YouTube"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 [[params.three.feature]]
-icon = "fa-headphones"
-title = "Baz kram"
+icon = "fa-twitter"
+title = "Twitter"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 [[params.three.feature]]
-icon = "fa-heart-o"
-title = "Some latin text"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
-icon = "fa-flag-o"
-title = "Nothing important"
+icon = "fa-facebook"
+title = "FaceBook"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 [params.cta]
